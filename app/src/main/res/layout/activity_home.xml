@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_wave"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="29dp"
+        android:text="SRIMATH SIVAGNANA BALAYA SWAMIGAL "
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:text="Tamil ,Arts ,Science College"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <Button
+        android:id="@+id/viewResult"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:background="@drawable/editboder"
+        android:padding="10dp"
+        android:text="View Result"
+        android:textColor="#3E2723"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/viewResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/editboder"
+        android:padding="10dp"
+        android:text="Upload"
+        android:textColor="#3E2723"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

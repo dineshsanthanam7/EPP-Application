@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_wave"
+    tools:context=".AnnaunivActivity"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/select_pdf_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="229dp"
+        android:text="Select PDF"
+        android:textColor="#fff"
+        android:background="@drawable/editboder"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        tools:ignore="HardcodedText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/sem"
+
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/select_pdf_button"
+        android:layout_alignStart="@+id/select_pdf_button"
+        android:layout_alignLeft="@+id/select_pdf_button"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="44dp"
+
+        android:hint="sem month and year"
+        android:spinnerMode="dropdown"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Confirm"
+        android:textColor="#fff"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:background="@drawable/editboder"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/sem"
+        android:layout_alignLeft="@+id/select_pdf_button"
+        android:layout_alignStart="@+id/select_pdf_button"
+        tools:ignore="HardcodedText" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button19"
+
+        android:layout_alignStart="@+id/select_pdf_button"
+        android:layout_alignLeft="@+id/select_pdf_button" />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831238515460",
+    "project_id": "epp-ssbstas-7151b",
+    "storage_bucket": "epp-ssbstas-7151b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831238515460:android:478b1c70bba38a14e67e51",
+        "android_client_info": {
+          "package_name": "com.example.epp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831238515460-824um5e1h4k8fvqloua9793urcdc5i8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCgUPvStBGXzqxSMVB0wLbxb8hTSIX7sM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831238515460-824um5e1h4k8fvqloua9793urcdc5i8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

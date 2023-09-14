@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_wave"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:text="THIRUVALLUVAR UNIVERSITY"
+        android:background="@drawable/editboder"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="233dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:textColor="#fff"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="ANNAMALAI UNIVERSITY"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/editboder"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_below="@+id/button5"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+</RelativeLayout>
